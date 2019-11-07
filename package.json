@@ -4,11 +4,14 @@
   "description": "A simple implementation of Trie data structure in JS.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "keywords": [
     "trie"
   ],
   "author": "Redwanul Karim",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
 }
