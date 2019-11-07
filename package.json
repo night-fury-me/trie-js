@@ -1,6 +1,6 @@
 {
   "name": "simple-trie-js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple implementation of Trie data structure in JS.",
   "main": "index.js",
   "scripts": {
