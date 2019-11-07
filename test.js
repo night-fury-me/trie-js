@@ -1,7 +1,12 @@
-// let Trie = require("./index.js");
-// // import Trie from 'index'
+let Trie = require("./index.js");
 
-// trie = new Trie();
+let trie = new Trie();
 
-// trie.add_word("abcde");
-// console.log(trie.search_word("abce"));
+trie.add_word("hello");
+trie.add_word("world");
+
+console.log(trie.search_word("hello") ? "Found!" : "Not Found!");
+console.log(trie.search_word("hell") ? "Found!" : "Not Found!");
+
+trie.delete_word("hello");
+console.log(trie.search_word("hello") ? "Found!" : "Not Found!");
